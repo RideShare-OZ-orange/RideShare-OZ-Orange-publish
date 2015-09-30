@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swen900014.orange.rideshareoz" >
+
+    <!-- To access Google APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user's Google account from an app. -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" > <!--  -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBZRhf-NZr0qcZbdttRMEE2dlUgRtuRo_Y" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OfferRide"
+            android:label="@string/_offerRide" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swen900014.orange.rideshareoz.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PassViewRideActivity"
+            android:label="@string/title_activity_pass_view_ride" >
+        </activity>
+        <activity
+            android:name=".MyRidesActivity"
+            android:label="@string/title_ride_searchresults"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swen900014.orange.rideshareoz.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DriverViewRideActivity"
+            android:label="@string/title_activity_driver_view_ride" >
+        </activity>
+        <activity
+            android:name=".UserInfoActivity"
+            android:label="@string/title_activity_user_info" >
+        </activity>
+    </application>
+
+</manifest>

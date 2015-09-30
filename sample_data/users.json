@@ -1,0 +1,60 @@
+{
+  "_id":{"$oid":"55ebd465edd10def84417a43"},
+  "username":"maxzhx@gmail.com",
+  "phone":"0422368947",
+  "DoB":"1991-08-14",
+  "driver_license":"IN: 456669",
+  "groups":[{"$oid":"55cab5dde81ab31606e4814c"}],
+  "events":[],
+  "rides":[],
+  "updated_at":{"$date":"2015-09-06T05:51:33Z"},
+  "__v":0
+}
+{
+  "_id":{"$oid":"55ebd45c8a0d27bb8476be53"},
+  "username":"george.nader@gmail.com",
+  "phone":"0411345877",
+  "DoB":"1994-02-21",
+  "driver_license":"AU: 898892",
+  "groups":[{"$oid":"55cab5dde81ab31606e4814c"}],
+  "events":[],
+  "rides":[],
+  "updated_at":{"$date":"2015-09-06T05:51:33Z"},
+  "__v":0
+}
+{
+  "_id":{"$oid":"55ebd431a7398c5184f39b6e"},
+  "username":"junjiex@student.unimelb.edu.au",
+  "phone":"0424976291",
+  "DoB":"1971-01-16",
+  "driver_license":"IN: 212930",
+  "groups":[{"$oid":"55cab5dde81ab31606e4814c"}],
+  "events":[],
+  "rides":[],
+  "updated_at":{"$date":"2015-09-06T05:51:33Z"},
+  "__v":0
+}
+{
+  "_id":{"$oid":"55ebd3ced6902fb183321374"},
+  "username":"qianz7@student.unimelb.edu.au",
+  "phone":"0422123988",
+  "DoB":"1996-11-01",
+  "driver_license":"",
+  "groups":[{"$oid":"55cab5dde81ab31606e4814c"}],
+  "events":[],
+  "rides":[],
+  "updated_at":{"$date":"2015-09-06T05:51:33Z"},
+  "__v":0
+}
+{
+  "_id":{"$oid":"55ebd381e685d1378386a759"},
+  "username":"sangzhouyang@student.unimelb.edu.au",
+  "phone":"0429239410",
+  "DoB":"1956-12-31",
+  "driver_license":"AU: 892384",
+  "groups":[{"$oid":"55cab5dde81ab31606e4814c"}],
+  "events":[],
+  "rides":[],
+  "updated_at":{"$date":"2015-09-06T05:51:33Z"},
+  "__v":0
+}

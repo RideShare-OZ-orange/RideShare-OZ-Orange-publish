@@ -1,0 +1,137 @@
+{
+  "_id":{"$oid":"55e7ed577ea19c92ac2d0911"},
+  "driver":{"$oid":"55ebd465edd10def84417a43"},
+  "start_point":[145.035238, -37.822913],
+  "end_point":[144.960222, -37.796670],
+  "start_add":"Burwood Rd/Glenferrie Rd, Hawthorn, Victoria, Australia",
+  "destination":"Grattan St/Royal Parade, Parkville, Victoria, Australia",
+  "seats": 4,
+  "passengers":[
+      {
+          "user":{"$oid":"55ebd431a7398c5184f39b6e"},
+          "pickup_point":[145.035238, -37.822913],
+          "pickup_add":"Burwood Rd/Glenferrie Rd, Hawthorn, Victoria, Australia"
+      },
+      {
+          "user":{"$oid":"55ebd3ced6902fb183321374"},
+          "pickup_point":[145.035238, -37.822913],
+          "pickup_add":"Burwood Rd/Glenferrie Rd, Hawthorn, Victoria, Australia"
+      }
+  ],
+  "requests":[],
+  "group":{"$oid":"55cab5dde81ab31606e4814c"},
+  "arrival_time":{"$date":"2015-10-11T13:00:00.000Z"},
+  "start_time":{"$date":"2015-10-11T11:00:00.000Z"},
+  "updated_at":{"$date":"2015-09-03T06:48:55.185Z"},
+  "__v":0
+}
+{
+  "_id":{"$oid":"55e7ed86d6546aebacb2edce"},
+  "driver":{"$oid":"55ebd45c8a0d27bb8476be53"},
+  "start_point":[144.980822, -37.870153],
+  "end_point":[144.960222, -37.796670],
+  "start_add":"Carlisle St, St Kilda East, Victoria, Australia",
+  "destination":"University of Melbourne/Royal Parade, Parkville, Victoria, Australia",
+  "seats": 3,
+  "passengers":[
+      {
+          "user":{"$oid":"55ebd381e685d1378386a759"},
+          "pickup_point":[144.980822, -37.870153],
+          "pickup_add":"Carlisle St, St Kilda East, Victoria, Australia"
+      }
+  ],
+  "requests":[],
+  "group":{"$oid":"55cab5dde81ab31606e4814c"},
+  "arrival_time":{"$date":"2015-10-09T12:00:00.000Z"},
+  "start_time":{"$date":"2015-10-09T11:00:00.000Z"},
+  "updated_at":{"$date":"2015-09-03T06:48:55.185Z"},
+  "__v":0
+}
+{
+  "_id":{"$oid":"55e8245cd96dfafdc45412e4"},
+  "driver":{"$oid":"55ebd465edd10def84417a43"},
+  "start_point":[144.973698, -37.762547],
+  "end_point":[144.960222, -37.796670],
+  "start_add":"23 Eddy St, Brunswick East, Victoria, Australia",
+  "destination":"University of Melbourne/Royal Parade, Parkville, Victoria, Australia",
+  "seats": 2,
+  "passengers":[
+      {
+          "user":{"$oid":"55ebd381e685d1378386a759"},
+          "pickup_point":[144.973698, -37.762547],
+          "pickup_add":"23 Eddy St, Brunswick East, Victoria, Australia"
+      }
+  ],
+  "requests":[],
+  "group":{"$oid":"55cab5dde81ab31606e4814c"},
+  "arrival_time":{"$date":"2015-10-20T09:30:00.000Z"},
+  "start_time":{"$date":"2015-10-20T07:30:00.000Z"},
+  "updated_at":{"$date":"2015-09-03T06:48:55.185Z"},
+  "__v":0
+}
+{
+  "_id":{"$oid":"55ebccc1627cfa34678b4bf2"},
+  "driver":{"$oid":"55ebd381e685d1378386a759"},
+  "start_point":[144.874735, -37.797416],
+  "end_point":[144.960222, -37.796670],
+  "start_add":"591 Barkly St, West Footscray, Victoria, Australia",
+  "destination":"University of Melbourne/Royal Parade, Parkville, Victoria, Australia",
+  "seats": 3,
+  "passengers":[
+  ],
+  "requests":[],
+  "group":{"$oid":"55cab5dde81ab31606e4814c"},
+  "arrival_time":{"$date":"2015-10-04T10:15:00.000Z"},
+  "start_time":{"$date":"2015-10-04T09:45:00.000Z"},
+  "updated_at":{"$date":"2015-09-03T06:48:55.185Z"},
+  "__v":0
+}
+{
+  "_id":{"$oid":"55ebcd1dcc5ac1e867563c44"},
+  "driver":{"$oid":"55ebd431a7398c5184f39b6e"},
+  "start_point":[145.213852, -37.989568],
+  "end_point":[144.960222, -37.796670],
+  "start_add":"8 William Ave, Dandenong South, Victoria, Australia",
+  "destination":"University of Melbourne/Royal Parade, Parkville, Victoria, Australia",
+  "seats": 1,
+  "passengers":[
+      {
+          "user":{"$oid":"55ebd45c8a0d27bb8476be53"},
+          "pickup_point":[145.213852, -37.989568],
+          "pickup_add":"187 Lonsdale St, Dandenong, Victoria, Australia"
+      }
+  ],
+  "requests":[],
+  "group":{"$oid":"55cab5dde81ab31606e4814c"},
+  "arrival_time":{"$date":"2015-10-15T13:45:00.000Z"},
+  "start_time":{"$date":"2015-10-15T12:45:00.000Z"},
+  "updated_at":{"$date":"2015-09-03T06:48:55.185Z"},
+  "__v":0
+}
+{
+  "_id":{"$oid":"55ebcd39b2d13f0c68375e67"},
+  "driver":{"$oid":"55ebd381e685d1378386a759"},
+  "start_point":[144.654922, -37.911497],
+  "end_point":[144.960222, -37.796670],
+  "start_add":"2 Doolan St, Werribee, Victoria, Australia",
+  "destination":"University of Melbourne/Royal Parade, Parkville, Victoria, Australia",
+  "seats": 3,
+  "passengers":[
+      {
+          "user":{"$oid":"55ebd465edd10def84417a43"},
+          "pickup_point":[144.654922, -37.911497],
+          "pickup_add":"2 Doolan St, Werribee, Victoria, Australia"
+      },
+      {
+          "user":{"$oid":"55ebd3ced6902fb183321374"},
+          "pickup_point":[144.654922, -37.911497],
+          "pickup_add":"2 Doolan St, Werribee, Victoria, Australia"
+      }
+  ],
+  "requests":[],
+  "group":{"$oid":"55cab5dde81ab31606e4814c"},
+  "arrival_time":{"$date":"2015-10-30T20:15:00.000Z"},
+  "start_time":{"$date":"2015-10-30T18:15:00.000Z"},
+  "updated_at":{"$date":"2015-09-03T06:48:55.185Z"},
+  "__v":0
+}

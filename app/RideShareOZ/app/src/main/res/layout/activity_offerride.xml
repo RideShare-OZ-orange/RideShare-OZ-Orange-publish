@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:id="@+id/Lay01" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.swen900014.orange.rideshareoz.OfferRide"
+            android:fillViewport="true">
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:rowCount="13"
+        android:columnCount="6">
+
+        <TextView
+            android:id="@+id/startPointText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/StartPoint"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="55dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnSpan="5"
+            android:layout_row="0"
+            android:layout_gravity="fill_horizontal"
+            android:inputType="textMultiLine|textAutoComplete|textPostalAddress"
+            android:layout_marginLeft="-55dp"
+            android:layout_rowSpan="4" />
+
+        <CheckBox
+            android:id="@+id/current1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/_Current"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/endPointText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/endPoint"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="75dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/End"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:inputType="textMultiLine|textAutoComplete|textPostalAddress"
+            android:layout_marginLeft="-55dp"
+            android:layout_rowSpan="3" />
+
+        <CheckBox
+            android:id="@+id/current2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/_Current"
+            android:layout_row="3"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EditDate"
+            android:id="@+id/setDateButton"
+            android:layout_column="0"
+            android:onClick="setDate"
+            android:textSize="13sp"
+            android:layout_row="7"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/displayDate"
+            android:layout_column="1"
+            android:layout_columnSpan="5"
+            android:layout_row="7"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="fill_horizontal"/>
+
+        <TextView
+            android:id="@+id/txtSeatNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seats"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_column="0"
+            android:layout_row="10"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ArrivalTime"
+            android:id="@+id/setEndTimeButton"
+            android:layout_column="0"
+            android:textSize="13sp"
+            android:onClick="setArrivalTime"
+            android:layout_row="9"
+            android:layout_gravity="fill_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rideStartTime"
+            android:id="@+id/setStartTimeButton"
+            android:layout_column="0"
+            android:textSize="13sp"
+            android:onClick="setStartTime"
+            android:layout_row="8"
+            android:layout_gravity="fill_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/displayStartTime"
+            android:layout_column="1"
+            android:layout_row="8"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="5"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/displayArrivalTime"
+            android:layout_column="1"
+            android:layout_marginTop="10dp"
+            android:layout_columnSpan="5"
+            android:layout_row="9"
+            android:layout_gravity="fill_horizontal"/>
+
+        <Spinner
+            android:layout_width="101dp"
+            android:layout_height="30dp"
+            android:id="@+id/spinner"
+            android:layout_column="3"
+            android:layout_row="10"
+            android:layout_gravity="bottom"/>
+
+        <GridLayout
+            android:layout_column="0"
+            android:layout_row="12"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center|fill"
+            android:columnCount="7"
+            android:rowCount="1"
+            android:layout_columnSpan="6"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="#FFCC66"
+                android:gravity="center"
+                android:onClick="offerRide"
+                android:text="@string/_Submit"
+                android:textColor="#FFFFFF"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="#FFCC66"
+                android:gravity="center"
+                android:text="@string/_Reset"
+                android:textColor="#FFFFFF"
+                android:layout_row="0"
+                android:layout_column="6"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"/>
+        </GridLayout>
+
+    </GridLayout>
+</ScrollView>

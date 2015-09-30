@@ -1,0 +1,201 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.swen900014.orange.rideshareoz.DriverViewRide" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:columnCount="6"
+        android:fillViewport="true" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/StartPoint"
+        android:id="@+id/startLabel"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="top|center_horizontal|fill"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/startPointText"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal|bottom|center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/endPoint"
+        android:id="@+id/endPointLabel"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="top|center_horizontal|fill"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:ems="10"
+        android:id="@+id/endPointText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal|bottom|center_horizontal"
+        android:layout_columnSpan="5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/startTime"
+        android:id="@+id/startTimeLabel"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal|center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:ems="10"
+        android:id="@+id/startTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal|bottom|center_horizontal"
+        android:layout_columnSpan="5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/arrivalTime"
+            android:id="@+id/arrivalTimeLabel"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal|center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/seats"
+            android:id="@+id/txtSeatNo"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal|center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+        android:ems="10"
+        android:id="@+id/driverText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal|bottom|center_horizontal"
+        android:focusable="false"
+        android:layout_columnSpan="5" />
+
+        <TextView
+            android:ems="10"
+            android:id="@+id/seatsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal|bottom|center_horizontal"
+            android:layout_columnSpan="5"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/passLabel"
+        android:id="@+id/passLabel"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal|center_horizontal"
+        android:layout_marginTop="15dp" />
+
+        <TextView
+            android:ems="10"
+            android:id="@+id/endTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal|bottom|center_horizontal"
+            android:layout_columnSpan="5"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/creator"
+        android:id="@+id/driverLabelDriverView"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal|center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+        <TableLayout
+            android:id="@+id/passengerList"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal|center">
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/waitingList"
+            android:layout_row="9"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal|center">
+
+        </TableLayout>
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelButton"
+        android:id="@+id/cancelButton"
+        android:onClick="cancelRide"
+        android:layout_row="10"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_columnSpan="6"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/RequestLabel"
+        android:id="@+id/RequestLabel"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal|top|center_horizontal"
+        android:layout_marginTop="15dp"/>
+    </GridLayout>
+
+</ScrollView>
+

@@ -1,0 +1,9 @@
+//processes.json:
+{
+  "apps" : [{
+    "name"        : "RideShare-OZ-Server",
+    "script"      : "bin/www",
+    "watch"       : "../",
+    "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+   }]
+ }
