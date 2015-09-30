@@ -1,0 +1,1 @@
+This is the build one version, including MyRides, View a ride(join/leave/reject/accept), offer a ride(create/cancel) and search a ride (from the surrounds of both start point and arrival point, searching the whole path is coming soon).
