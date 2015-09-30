@@ -1,4 +1,4 @@
-Android app contributors: 
-Sangzhuoyang Yu
-George Nader Shehata
+Android app contributors: \n
+Sangzhuoyang Yu \n
+George Nader Shehata \n
 Qianwen Zhang
